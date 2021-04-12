@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <title>Document</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="img/logo192.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <span id="header-text">File Reader</span>
+    </div>
+
+    <div
+      style="
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+      "
+      id="content"
+    >
+      Click + icon to open a file and read its content
+    </div>
+    <input type="file" />
+    <div id="plus-icon">+</div>
+    <div id="header-icons">
+      <i id="arrow-up-icon" class="material-icons">expand_less</i>
+      <i id="arrow-down-icon" class="material-icons">expand_more</i>
+      <i id="search-icon" class="material-icons">search</i>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
